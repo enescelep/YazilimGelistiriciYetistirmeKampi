@@ -1,14 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Security.Principal;
+using System.Net;
 
 namespace _4GunOdev
 {
     class Program
     {
         static void Main(string[] args)
-        {
-            
+        {;
             MyDictionary<int, string> myDictionary = new MyDictionary<int, string>();
             /*List<int> plakalar = new List<int>();
             List<string> iller = new List<string>() {"adana","istanbul","ankara" };
@@ -21,7 +22,6 @@ namespace _4GunOdev
                 myDictionary.Add(plakalar[i], iller[i]);
             }
             Console.WriteLine(myDictionary.GetValue(2));*/
-
             string[] arguments;
             try
             {
@@ -58,7 +58,7 @@ namespace _4GunOdev
                 }
                 catch (Exception ex)
                 {
-                    Console.WriteLine(ex.Message);
+                    Console.WriteLine("Geçerli bir sayı giriniz.");
 
                     // break;
                 }

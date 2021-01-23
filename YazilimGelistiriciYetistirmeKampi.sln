@@ -3,35 +3,39 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2GunOdev", "2GunOdev\2GunOdev.csproj", "{973D41F6-7A49-499D-8B77-EFF8DBDA7A8B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2GunOdev", "2GunOdev\2GunOdev.csproj", "{973D41F6-7A49-499D-8B77-EFF8DBDA7A8B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassIntro", "ClassIntro\ClassIntro.csproj", "{2E58B941-4EE0-4CEA-B9CB-4A02CC20198F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassIntro", "ClassIntro\ClassIntro.csproj", "{2E58B941-4EE0-4CEA-B9CB-4A02CC20198F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassMetotDemo", "ClassMetotDemo\ClassMetotDemo.csproj", "{7ACAFA4D-FF68-4BCD-AF5C-7F6FBDDFBFEE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassMetotDemo", "ClassMetotDemo\ClassMetotDemo.csproj", "{7ACAFA4D-FF68-4BCD-AF5C-7F6FBDDFBFEE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DegerVeReferansTipler", "DegerVeReferansTipler\DegerVeReferansTipler.csproj", "{860A7E61-EC20-4CEA-9AE5-E0119F122AF8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DegerVeReferansTipler", "DegerVeReferansTipler\DegerVeReferansTipler.csproj", "{860A7E61-EC20-4CEA-9AE5-E0119F122AF8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Donguler", "Donguler\Donguler.csproj", "{FC5E70C6-99D1-4B94-B99A-A7F02A46283D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Donguler", "Donguler\Donguler.csproj", "{FC5E70C6-99D1-4B94-B99A-A7F02A46283D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericsIntro", "GenericsIntro\GenericsIntro.csproj", "{42063074-271A-40AC-A60A-7CC1346D7024}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenericsIntro", "GenericsIntro\GenericsIntro.csproj", "{42063074-271A-40AC-A60A-7CC1346D7024}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Koleksiyonlar", "Koleksiyonlar\Koleksiyonlar.csproj", "{94AA0CD7-9031-48B9-82CD-FA8EAAA2FDAB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Koleksiyonlar", "Koleksiyonlar\Koleksiyonlar.csproj", "{94AA0CD7-9031-48B9-82CD-FA8EAAA2FDAB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Matematik", "Matematik\Matematik.csproj", "{579B748A-FEFF-47F5-B8C5-EEF11B151E38}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Matematik", "Matematik\Matematik.csproj", "{579B748A-FEFF-47F5-B8C5-EEF11B151E38}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metotlar", "Metotlar\Metotlar.csproj", "{57A433D8-D106-4B3F-A595-9BBC103D22C3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Metotlar", "Metotlar\Metotlar.csproj", "{57A433D8-D106-4B3F-A595-9BBC103D22C3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP1", "OOP1\OOP1.csproj", "{5BA94450-B263-4CBE-BE29-F53F24CED286}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOP1", "OOP1\OOP1.csproj", "{5BA94450-B263-4CBE-BE29-F53F24CED286}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tekrar1", "Tekrar1\Tekrar1.csproj", "{7D1436EA-8B8A-4B4B-B4B4-C5961A755712}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tekrar1", "Tekrar1\Tekrar1.csproj", "{7D1436EA-8B8A-4B4B-B4B4-C5961A755712}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tekrar2", "Tekrar2\Tekrar2.csproj", "{22772A23-4B2B-4808-94BC-D0D375849BA9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tekrar2", "Tekrar2\Tekrar2.csproj", "{22772A23-4B2B-4808-94BC-D0D375849BA9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YouTubeTekrar1", "YouTubeTekrar1\YouTubeTekrar1.csproj", "{3F5F59F8-1B25-4FC4-BDBF-155A9C77077F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YouTubeTekrar1", "YouTubeTekrar1\YouTubeTekrar1.csproj", "{3F5F59F8-1B25-4FC4-BDBF-155A9C77077F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4GunOdev", "4GunOdev\4GunOdev.csproj", "{8408F29F-969D-47B9-BCAD-FE86C0FC73DF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "4GunOdev", "4GunOdev\4GunOdev.csproj", "{8408F29F-969D-47B9-BCAD-FE86C0FC73DF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YouTubeTekrar2", "YouTubeTekrar2\YouTubeTekrar2.csproj", "{1856D9DC-56E9-468E-BEF9-DC0B1A276583}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YouTubeTekrar2", "YouTubeTekrar2\YouTubeTekrar2.csproj", "{1856D9DC-56E9-468E-BEF9-DC0B1A276583}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP2", "OOP2\OOP2.csproj", "{BA30DCB2-83B5-4CFB-8CA7-B62AF1039E83}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP3", "OOP3\OOP3.csproj", "{6D97BA1F-0B30-44CF-951D-2E338528A5E8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -99,6 +103,14 @@ Global
 		{1856D9DC-56E9-468E-BEF9-DC0B1A276583}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1856D9DC-56E9-468E-BEF9-DC0B1A276583}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1856D9DC-56E9-468E-BEF9-DC0B1A276583}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA30DCB2-83B5-4CFB-8CA7-B62AF1039E83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA30DCB2-83B5-4CFB-8CA7-B62AF1039E83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA30DCB2-83B5-4CFB-8CA7-B62AF1039E83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA30DCB2-83B5-4CFB-8CA7-B62AF1039E83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D97BA1F-0B30-44CF-951D-2E338528A5E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D97BA1F-0B30-44CF-951D-2E338528A5E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D97BA1F-0B30-44CF-951D-2E338528A5E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D97BA1F-0B30-44CF-951D-2E338528A5E8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
