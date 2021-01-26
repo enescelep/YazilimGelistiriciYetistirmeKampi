@@ -22,8 +22,8 @@ namespace YouTubeTekrar3
 
             IPaymentMethod card = new PayByCreditCard();
             IPaymentMethod cash = new PayInCash();
-            card.Pay(product1.Price);
-            cash.Pay(product2.Price);
+            card.Pay(product1);
+            cash.Pay(product2);
         }
     }
 }

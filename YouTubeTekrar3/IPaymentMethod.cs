@@ -6,6 +6,6 @@ namespace YouTubeTekrar3
 {
     interface IPaymentMethod
     {
-        void Pay(double Price);
+        void Pay(Product product);
     }
 }

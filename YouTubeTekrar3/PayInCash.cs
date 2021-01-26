@@ -6,9 +6,9 @@ namespace YouTubeTekrar3
 {
     class PayInCash : IPaymentMethod
     {
-        public void Pay(double Price)
+        public void Pay(Product product)
         {
-            Console.WriteLine("You have paid "+ Price + "TRY in cash.\nHave a nice day!");
+            Console.WriteLine("You have bought " + product.Name + "\nYou have paid " + product.Price + "TRY by credit card.\nHave a nice day!\n");
         }
     }
 }
