@@ -39,7 +39,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOP3", "OOP3\OOP3.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DamaTahtası", "DamaTahtası\DamaTahtası.csproj", "{1CB995D3-3990-4CD1-B4BB-3E48EE653DD8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YouTubeTekrar3", "YouTubeTekrar3\YouTubeTekrar3.csproj", "{1C7773F9-7A49-4CE5-9118-1D05CE3EF731}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YouTubeTekrar3", "YouTubeTekrar3\YouTubeTekrar3.csproj", "{1C7773F9-7A49-4CE5-9118-1D05CE3EF731}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5GunOdev", "5GunOdev\5GunOdev.csproj", "{4A5FCA98-30BB-47C8-ADA9-520F0F56739B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -123,6 +125,10 @@ Global
 		{1C7773F9-7A49-4CE5-9118-1D05CE3EF731}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1C7773F9-7A49-4CE5-9118-1D05CE3EF731}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1C7773F9-7A49-4CE5-9118-1D05CE3EF731}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A5FCA98-30BB-47C8-ADA9-520F0F56739B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A5FCA98-30BB-47C8-ADA9-520F0F56739B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A5FCA98-30BB-47C8-ADA9-520F0F56739B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A5FCA98-30BB-47C8-ADA9-520F0F56739B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
