@@ -10,10 +10,10 @@ namespace _5GunOdev
         {
             Gamer gamer1 = new Gamer
             {
-                Name = "Enes",
-                LastName = "Celep",
-                NationalityID = 39595541124,
-                DateOfBirth = new DateTime(2006, 1, 25)
+                Name = "Ahmet",
+                LastName = "Kaya",
+                NationalityID = 12345678912,
+                DateOfBirth = new DateTime(2000, 1, 15)
             };
             Game game1 = new Game
             {
