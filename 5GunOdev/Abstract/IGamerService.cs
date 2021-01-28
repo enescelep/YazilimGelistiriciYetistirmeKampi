@@ -5,8 +5,10 @@ using _5GunOdev.Entities;
 
 namespace _5GunOdev.Abstract
 {
-    interface IMakeDiscount
+    interface IGamerService
     {
-        public int MakeDiscount(Game game, Campaign campaign, Customer customer);
+        void SignUp(Gamer gamer);
+        void SignIn(Gamer gamer);
+        void SignOut(Gamer gamer);
     }
 }

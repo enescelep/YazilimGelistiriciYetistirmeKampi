@@ -1,7 +1,6 @@
 ﻿using System;
 using _5GunOdev.Entities;
-using _5GunOdev.Adapter;
-using _5GunOdev.Contre;
+using _5GunOdev.Concretes;
 
 namespace _5GunOdev
 {
@@ -9,31 +8,38 @@ namespace _5GunOdev
     {
         static void Main(string[] args)
         {
-            Customer customer1 = new Customer
+            Gamer gamer1 = new Gamer
             {
-                CustomerName = "Enes",
-                CustomerSurname = "Celep",
-                CustomerDateOfBirth = new DateTime(2236,2,25),
-                CustomerIdentityKey = 12345678912
+                Name = "Enes",
+                LastName = "Celep",
+                NationalityID = 39595541124,
+                DateOfBirth = new DateTime(2006, 1, 25)
             };
             Game game1 = new Game
             {
-                GameId = 1,
-                GameName = "GTA 5",
-                GamePrice = 169.90
+                Name = "GTA 5",
+                UnitPrice = 169.90
+            };
+            Game game2 = new Game
+            {
+                Name = "Metro: Last Light Redux",
+                UnitPrice = 18.90
             };
             Campaign campaign1 = new Campaign
             {
                 Id = 1,
-                DiscountRate = 15,
+                Name = "Special for students",
+                Rate = 0.25
             };
-
-            Discount makeDiscount = new Discount();
+            CampaignManager campaignManager = new CampaignManager();
+            GameManager gameManager = new GameManager();
+            GamerManager gamerManager = new GamerManager();
             
 
-            /*Check check = new Check();
-            var a=check.CheckIfRealPerson(customer1);
-            Console.WriteLine(a);*/
+            gamerManager.SignIn(gamer1);
+            gameManager.Buy(gamer1,game1,campaign1);
+            campaignManager.Add(campaign1);
+            gameManager.Add(game2);
         }
     }
 }

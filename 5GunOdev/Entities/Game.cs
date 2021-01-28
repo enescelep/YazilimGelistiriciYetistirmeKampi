@@ -6,8 +6,7 @@ namespace _5GunOdev.Entities
 {
     class Game
     {
-        public int GameId { get; set; }
-        public string GameName { get; set; }
-        public double GamePrice { get; set; }
+        public string Name { get; set; }
+        public double UnitPrice { get; set; }
     }
 }

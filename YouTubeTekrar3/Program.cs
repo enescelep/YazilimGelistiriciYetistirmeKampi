@@ -19,7 +19,6 @@ namespace YouTubeTekrar3
                 Description = "Dining Table",
                 Price = 67.90,
             };
-
             IPaymentMethod card = new PayByCreditCard();
             IPaymentMethod cash = new PayInCash();
             card.Pay(product1);

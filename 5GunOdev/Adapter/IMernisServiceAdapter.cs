@@ -9,6 +9,6 @@ namespace _5GunOdev.Adapter
 {
     interface IMernisServiceAdapter
     {
-        bool CheckIfRealPerson(Customer customer);
+        bool CheckIfRealPerson(Gamer gamer);
     }
 }

@@ -9,15 +9,15 @@ namespace _5GunOdev.Adapter
 {
     class Check : IMernisServiceAdapter
     {
-        public bool CheckIfRealPerson(Customer customer)
+        public bool CheckIfRealPerson(Gamer gamer)
         {
-            return CheckRealPerson(customer).Result;
+            return CheckRealPerson(gamer).Result;
         }
-        public static async Task<bool> CheckRealPerson(Customer customer)
+        public static async Task<bool> CheckRealPerson(Gamer gamer)
         {
             KPSPublicSoapClient client = new KPSPublicSoapClient(KPSPublicSoapClient.EndpointConfiguration.KPSPublicSoap12);
-            var durum = await (client.TCKimlikNoDogrulaAsync(Convert.ToInt64(customer.CustomerIdentityKey), (customer.CustomerName),
-                (customer.CustomerSurname), (customer.CustomerDateOfBirth.Year)));
+            var durum = await (client.TCKimlikNoDogrulaAsync(Convert.ToInt64(gamer.NationalityID), (gamer.Name),
+                (gamer.LastName), (gamer.DateOfBirth.Year)));
             return durum.Body.TCKimlikNoDogrulaResult;
         }
     }
